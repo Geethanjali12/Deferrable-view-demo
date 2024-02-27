@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "deferrable-views-demo:build:production"
+              "buildTarget": "deferrable-views-demo:build:production"
             },
             "development": {
-              "browserTarget": "deferrable-views-demo:build:development"
+              "buildTarget": "deferrable-views-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "deferrable-views-demo:build"
+            "buildTarget": "deferrable-views-demo:build"
           }
         },
         "test": {
